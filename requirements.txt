@@ -4,3 +4,5 @@ cvxpy
 scipy
 scikit-learn
 typing-extensions
+tqdm
+networkx

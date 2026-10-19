@@ -1,0 +1,12 @@
+name: decentralized-opt
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - -r requirements.txt
+      - tqdm
+      - networkx
+      - jupyter
+      - ipykernel

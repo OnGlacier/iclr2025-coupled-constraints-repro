@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local editor / OS files
+.vscode/
+.DS_Store
+
+# Large local backup of generated outputs
+repro/outputs.zip
+
+# Paper PDF: keep it locally for reference; do not publish it in the repo
+ICLR-2025-decentralized-optimization-with-coupled-constraints-Paper-Conference.pdf
