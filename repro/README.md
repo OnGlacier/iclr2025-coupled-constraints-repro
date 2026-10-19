@@ -2,14 +2,14 @@
 
 本目录把 ICLR 2025 论文 **“Decentralized Optimization with Coupled Constraints”**
 的复现拆成四个互相独立的模块。所有新代码都放在 `repro/` 下，官方根目录中的
-`models.py`、`methods.py`、`utils.py` 以及两个 notebook **没有做任何修改**。
+`models.py`、`methods.py`、`utils.py` 以及三个 notebook **没有做任何修改**。
 
 四个模块与论文的对应关系：
 
 | 模块 | 对应论文内容 | 主要产物 |
 |---|---|---|
 | M1 | Assumptions 1–3、Lemma 1–5 的数值验证 | `outputs/reports/lemma_checks.json` |
-| M2 | 主算法（Algorithm 2）的独立实现、Theorem 1 复杂度斜率 | `m2_main_impl` 对比报告、三组 sweep 图 |
+| M2 | 主算法（Algorithm 2）的独立实现、Theorem 1 复杂度斜率 | `main_impl.py` 对比报告、三组 sweep 图 |
 | M3 | Figure 1（合成线性回归）与增强系数 `r` 消融 | `m3_figure1.*`、`m3_r_ablation.*` |
 | M4 | Figure 2（VFL）、consensus 补充实验、标签分布式 VFL | `m4_figure2.*`、`m4_consensus.*`、`m4_labels_distributed.*` |
 
